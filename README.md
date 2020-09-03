@@ -1,1 +1,1 @@
-# Kolli-linear-algebra
+# Linear-Algebra

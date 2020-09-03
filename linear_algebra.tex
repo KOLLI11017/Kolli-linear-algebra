@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\begin{document}
+	\textnormal{\hspace{-8ex}(Q). Find $\theta$ and P if ($\sqrt{3}$\hspace{2mm} 1)X = -2 \hspace{1mm}is equivalent to ($\cos$$\theta$\hspace{2mm} $\sin$$\theta$)X = P ?}\\[3ex]
+	\textnormal{Given,\hspace{3mm}($\sqrt{3}$\hspace{2mm} 1)X = -2 \hspace{1mm}is equivalent to ($\cos$$\theta$\hspace{2mm} $\sin$$\theta$)X = P}\\[1.5em]
+	\textnormal{Let, \hspace{3mm}}
+	\begin{flalign}
+	X = \begin{bmatrix}a\\b\end{bmatrix}
+	\end{flalign}
+	\textnormal{From, \hspace{3ex} ($\sqrt{3}$\hspace{2mm} 1)X = -2}
+	\begin{flalign}
+		A = \begin{bmatrix}\sqrt{3} & 1\end{bmatrix}\\[1.5ex]
+		B = \begin{bmatrix}-2\end{bmatrix}
+	\end{flalign}
+	\textnormal{We know that,}
+	\begin{flalign}
+		 AX = B\ (for\ linear\ equations)\\[1.5ex]
+		 \begin{bmatrix}\sqrt{3} & 1\end{bmatrix}\hspace{2mm}\begin{bmatrix}a\\b\end{bmatrix} = \begin{bmatrix}-2\end{bmatrix}\\[1.5ex]
+		 \sqrt{3}\ a + b = -2
+	\end{flalign}
+	\textnormal{From ,\hspace{3ex} ($\cos$$\theta$\hspace{2mm} $\sin$$\theta$)X = P }
+	\begin{flalign}
+	\begin{bmatrix}\cos\theta & \sin\theta\end{bmatrix}\hspace{2mm}\begin{bmatrix}a\\b\end{bmatrix} = \begin{bmatrix}P\end{bmatrix}\\[1.5ex]
+	a \cos\theta + b\sin\theta = P
+	\end{flalign}
+	\textnormal{From ,\hspace{2ex} eqns. (6,\ 8) }
+	\begin{flalign}
+		\cos\theta = \sqrt{3}
+	\end{flalign}
+	\textnormal{( Eqn.(9) is not possible as range of $\cos$$\theta$ is [-1,1]. )}\\[1.5ex]
+	\textnormal{Now, Divide eqn.(6) with 2 on both sides, resulting the cosine value that falls in it's range.}
+	\begin{flalign}
+	\frac{\sqrt{3}}{2}\ a + \frac{1}{2}\ b = -1
+	\end{flalign}
+	\textnormal{By comparing eqns. (8,\ 10). We get, }
+	\begin{flalign}
+	\cos\theta = \frac{\sqrt{3}}{2};\ 
+	\sin\theta = \frac{1}{2}\\[1.5ex]
+	\theta = cos^{-1}(\frac{\sqrt{3}}{2}) = sin^{-1}(\frac{1}{2}) = \ang{30}\\[1.5ex]
+	P = -1
+	\end{flalign}
+	
+	
+\end{document}
